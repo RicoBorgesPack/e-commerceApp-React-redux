@@ -11,20 +11,17 @@ export default function Eservices() {
                         <div className="inner_left">
                             <ImTruck className="icon"/>
                             <h4>Fast delivery</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and 
-                                typesetting industry.</p>
+                            <p>Fastest delivery in the Industrial equipment market</p>
                         </div>
                         <div className="inner_middle">
                             <ImHome className="icon"/>
-                            <h4>Creative Stergity</h4>
-                            <p>It is a long established fact that a reader will be distracted by the 
-                                readable content of a page. </p>
+                            <h4>Trusteable selles</h4>
+                            <p>Selles from many places of the world and with the best quality in their machinery</p>
                         </div>
                         <div className="inner_right">
                             <ImLock  className="icon"/>
                             <h4>High Secure</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and 
-                                typesetting industry.</p>
+                            <p>Payment secured by Stripe connect</p>
                         </div>
                     </div>
 

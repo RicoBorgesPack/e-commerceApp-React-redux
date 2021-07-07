@@ -1,19 +1,14 @@
 export const footerItems = [
     {
-       "title":"Brands",
-       "item1":"Adidas",
-       "item2":"Puma",
-       "item3":"Reebok",
-       "item4":"Nike"
+       "title":"Sellers",
+       "item1":"Terms of use"
 
    },
 {
     "title":"Company",
        "item1":"About us",
        "item2":"Career",
-       "item3":"Find a store",
-       "item4":"Rules and terms",
-       "item5":"Sitemap"
+       "item4":"Rules and terms"
 },
 {
     "title":"Account",

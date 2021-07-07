@@ -16,7 +16,7 @@ export default function Searchbar() {
                 <div className="col-lg-8 searchbar_wrapper">
                     <div className="searchbar_left">
                         <div className="company_logo">
-                           <Link to="/"><h4>RB-Cart</h4></Link> 
+                           <Link to="/"><img src="LogoTalos.png"></img></Link> 
                         </div>
                     </div>
                     <div className="searchbar_middle">

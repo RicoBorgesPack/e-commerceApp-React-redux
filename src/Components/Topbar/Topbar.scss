@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-:root{
-    --topbar-color:#1976d2;
-}
-
 .topbar{
     display: flex;
     align-items: center;
+    --topbar-color:#fff;
     width: 100%;
     padding-top: 0.2rem;
     background-color:var(--topbar-color);
@@ -32,7 +29,7 @@
    
     li{
         margin-left: 1rem;
-        color: white;
+        color: #1976d2;
         cursor: pointer;
         // border: 1px solid red;
         font-size: small;
