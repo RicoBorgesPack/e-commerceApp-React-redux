@@ -1,26 +1,30 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectToCartAction } from '../../Redux/Action/selectToCartAction';
 import './Product.scss';
 
 
-export default function JeweleryProducts() {
+export default function HealthProducts() {
+    const [added, setAdded] = useState(false);
     const {allProducts} = useSelector(state => state.productReducer);
     const dispatch = useDispatch();
 
     const addTocart = (itemId) => {
-        dispatch(selectToCartAction(itemId))
+        dispatch(selectToCartAction(itemId));
+     
     }
-    
+   
     return (
         <>
-              <h2 style={{marginTop:"3rem"}}>Jewelery:</h2>
+              <h2 style={{marginTop:"3rem"}}>Health:</h2>
 
         {
             allProducts === false ? <h3>Couldn't able to get data from source</h3> : 
             <div className="products">
-                { allProducts.map((item)=>{
-                            return  (item.category === "jewelery" ?
+              
+                {
+                    allProducts.map((item)=>{
+                            return  (item.category === "electronics" ?
                                     <div className="card col-lg-3 col-md-3 product_wrapper" key={item.id}>
                                         <img src={item.image} className="card-img-top" alt="men's-product" />
                                         <div className="card-body">

@@ -4,7 +4,7 @@ import { selectToCartAction } from '../../Redux/Action/selectToCartAction';
 import './Product.scss';
 
 
-export default function MenProduct() {
+export default function ToolsProduct() {
     const {allProducts, selectedItems} = useSelector(state => state.productReducer);
     const dispatch = useDispatch();
 
@@ -15,7 +15,7 @@ export default function MenProduct() {
     
     return (
         <>
-              <h2 style={{marginTop:"3rem"}}>Men's clothes:</h2>
+              <h2 style={{marginTop:"3rem"}}>Tools:</h2>
 
         { allProducts === false ? <h3>Couldn't able to get data from source</h3> : 
             <div className="col-lg-12 products">

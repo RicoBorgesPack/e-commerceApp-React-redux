@@ -1,14 +1,13 @@
 :root{
     --topbar-color:#1976d2;
-    --searchbar-bg-color:#e8e8e84a;
+    --searchbar-bg-color:#fff;
     --logo-color:var(--topbar-color);
-    --border-line:#6360605f;
 }
 
 .searchbar{
     display: flex;
     align-items: center;
-    background-color: var(--searchbar-bg-color);
+    background-color: #fff;
     width: 100%;
     border-bottom: 1px solid var(--border-line);
    
@@ -23,12 +22,16 @@
     
     .searchbar_left{
         margin-left: 3rem;
-        border: 1px solid rgb(45, 89, 184);
         border-radius: 0.5rem;
         color: var(--logo-color);
 
         .company_logo{
             padding: 0.4rem;
+            img{
+                max-width: 50px;
+                max-height: 50px;
+            }
+            
         }
        
     }
@@ -60,8 +63,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid red;
-        background-color: red;
+        border: 1px solid#1976d2;
+        background-color: #1976d2;
         position: relative;
         top: -10px;
         right: -5px;
@@ -71,7 +74,7 @@
     .cart_icon,.profile_icon{
         font-size: 1.5rem;
         border-radius: 50%;
-        box-shadow: 1px 1px 2px 1px rgb(223, 222, 222);
+        box-shadow: 1px 1px 2px 1px #fff;
         width: 2.7rem;
         height:2.7rem;
         display: flex;
@@ -98,7 +101,7 @@
         cursor: pointer;
         padding: 0.2rem;
         line-height: 0.5px;
-        
+        color: #1976d2;
     }
 }
 

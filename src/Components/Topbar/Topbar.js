@@ -15,11 +15,13 @@ export default function Topbar() {
                     </div>
                     <div className="top_right">
                         <ul>
-                            <li>Call:+35845721352</li>
                             <li>
                                 <select name="language">
                                     <option value="English">English</option>
-                                    <option value="Finnish">Finnish</option>
+                                    <option value="Portuguese">Português</option>
+                                    <option value="French">Français</option>
+                                    <option value="Hindi">हिंदी</option>
+                                    <option value="">日本語</option>
                                 </select>
                             </li>
                         </ul>
