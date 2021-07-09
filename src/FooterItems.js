@@ -1,9 +1,9 @@
 export const footerItems = [
-    {
-       "title":"Sellers",
-       "item1":"Terms of use"
+{
+    "title":"Sellers",
+    "item1":"Terms of use"
 
-   },
+},
 {
     "title":"Company",
        "item1":"About us",

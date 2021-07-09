@@ -3,6 +3,7 @@ import { useDispatch }  from 'react-redux';
 import { getProductsAction } from '../../Redux/Action/getProducts-Action';
 import ToolsProduct from './ToolsProduct';
 import HealthProducts from './HealthProducts';
+import HeavyProducts from './HeavyProducts';
 
 export default function ProductsList() {
     const dispatch = useDispatch();
@@ -49,6 +50,7 @@ export default function ProductsList() {
                 <div className="product_list">
                      <ToolsProduct />
                     <HealthProducts />
+                    <HeavyProducts />
                 </div>
             }
                 
